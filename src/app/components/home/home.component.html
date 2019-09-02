@@ -1,0 +1,9 @@
+<h3 class="text-white display-4">Ultimos Lanzamientos</h3>
+
+<div class="alert alert-danger mt-4" *ngIf="error">
+    <h3>Algo salio mal</h3>
+</div>
+
+<app-loading *ngIf="loading"></app-loading>
+
+<app-tarjetas [items]="nuevosLanzamientos"></app-tarjetas>

@@ -1,0 +1,11 @@
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" #termino (keyup)="buscar(termino.value)" aria-label="Recipient's username" placeholder="Buscar artista" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-success" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+
+<app-loading *ngIf="loading"></app-loading>
+
+<app-tarjetas *ngIf="!loading" [items]="artistas"></app-tarjetas>

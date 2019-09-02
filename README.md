@@ -1,4 +1,12 @@
-# SpotiApp
+# SpotiApp (Vista previa de la aplicación)
+
+![](docs/SpotiApp-home.png)
+
+![](docs/SpotiApp-buscar.png)
+
+![](docs/SpotiApp-albums.png)
+
+![](docs/SpotiApp-artist2.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
